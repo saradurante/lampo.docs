@@ -1,0 +1,24 @@
+---
+title: "Get Info"
+api: "GET /getinfo"
+description: "Query the information of the node."
+---
+
+<RequestExample>
+
+```bash Example Request
+lampo-cli --socket /home/vincent/.lampo/testnet/lampod.socket getinfo
+```
+</RequestExample>
+
+<ResponseExample>
+
+```json Response
+{
+  "node_id": "027139e2be6e1dd03a0d25a4925e7a1292b5f0f0901123ae234c9d9951d926319a",
+  "peers": 0,
+  "channels": 0
+}
+```
+
+</ResponseExample>
