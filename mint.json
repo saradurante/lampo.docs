@@ -5,21 +5,17 @@
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/logo/light.png",
   "colors": {
     "primary": "#0069ED",
     "light": "#4D9CFF",
     "dark": "#0050B4"
   },
   "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
-    }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "url": "deamon/introduction"
   },
   "anchors": [
     {
@@ -30,34 +26,25 @@
     {
       "name": "Changelog",
       "icon": "list",
-      "url": "https://mintlify.com"
+      "url": "#TODO"
     },
     {
-      "name": "Community",
+      "name": "Contact",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "introduction#contact-info"
     }
   ],
   "navigation": [
     {
       "group": "Home",
-      "pages": ["introduction", "features"]
+      "pages": ["introduction"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/getinfo",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Lampo Deamon",
+      "pages": ["deamon/introduction", "api-reference/introduction"]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/dart-lightning/lampo.rs"
   }
 }
